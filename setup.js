@@ -45,7 +45,7 @@
         try {
           result = JSON.parse(body);  
         } catch (e) {
-          console.login('ERROR EN EL PARSE DEL BODY', e, '\nContenido: ', body);
+          console.log('ERROR EN EL PARSE DEL BODY', e, '\nContenido: ', body);
         }
         
         // If the session token exists
